@@ -1,0 +1,10 @@
+^C:\BELLOWS\RAY_TRACING\BUILD\CMAKEFILES\A47F8A5B2F915AD84D0AC65DFDD83A40\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/bellows/Ray_Tracing -BC:/bellows/Ray_Tracing/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/bellows/Ray_Tracing/build/RayTracing.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

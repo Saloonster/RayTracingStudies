@@ -1,0 +1,3 @@
+C:/bellows/Ray_Tracing/build/CMakeFiles/RayScene.dir
+C:/bellows/Ray_Tracing/build/CMakeFiles/ALL_BUILD.dir
+C:/bellows/Ray_Tracing/build/CMakeFiles/ZERO_CHECK.dir
